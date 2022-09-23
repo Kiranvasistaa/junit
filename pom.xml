@@ -15,6 +15,10 @@
 	<description>Spring Boot test</description>
 	<properties>
 		<java.version>11</java.version>
+		<sonar.host.url>http://44.200.189.45:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>akkuforever</sonar.password>
+		<sonar.projectBaseDir>/home/ubuntu/sonar</sonar.projectBaseDir>
 	</properties>
 	<dependencies>
 		<dependency>
